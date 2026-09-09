@@ -27,7 +27,7 @@ source:
   sha256: ec84e2e17d79598d782edc5468e7ebfe392ccf5aff9170a15c10f0b52f9f62b4
 
 build:
-  number: 0
+  number: 1
   # MPI-linked, so it carries the conda-forge mpi_<flavour>_* build string.
   string: mpi_${{ mpi }}_${{ hash }}_${{ build_number }}
   # mpich/openmpi are not built for win-64 on conda-forge (only msmpi/impi_rt,
