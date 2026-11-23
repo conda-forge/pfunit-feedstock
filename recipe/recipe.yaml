@@ -10,7 +10,7 @@
 schema_version: 1
 
 context:
-  version: "4.20.1"
+  version: "4.22.0"
 
 package:
   name: pfunit
@@ -24,7 +24,7 @@ source:
   # the URL's .tar extension drive extraction strips the single top-level
   # pFUnit-v<ver>/ dir, exactly as the .tar.gz sources of the other recipes do.
   url: https://github.com/Goddard-Fortran-Ecosystem/pFUnit/releases/download/v${{ version }}/pFUnit-v${{ version }}.tar
-  sha256: 3d1789f08c71748e9c5cd4822217e7cbe8a3c7df81d166b3a862b536a281fcb9
+  sha256: 8ef0d95690a2d4f376a2c6e741ae5f833adceb49093ed54dcaa9917d427bfc44
 
 build:
   number: 0
